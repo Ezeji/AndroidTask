@@ -25,5 +25,8 @@ namespace AndroidTask
                 return Path.Combine(basePath, DatabaseFilename);
             }
         }
+
+        // URL of REST service
+        public static string RestUrl = "https://api.github.com/search/users?q=language:java%20location:lagos";
     }
 }

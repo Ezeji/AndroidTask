@@ -19,8 +19,15 @@ namespace AndroidTask
         public MainPage()
         {
             InitializeComponent();
+            this.BindingContext = new MainPageViewModel(this);
         }
 
-        
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            listView.ItemsSource = await App.GeeksManager.GetTasksAsync();
+        }
+
     }
 }

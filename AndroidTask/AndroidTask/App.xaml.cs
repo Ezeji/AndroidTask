@@ -10,12 +10,14 @@ namespace AndroidTask
     public partial class App : Application
     {
         static AndroidTaskDatabase database;
+        public static ItemManager GeeksManager { get; private set; }
 
         public App()
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LogInPage());
+            GeeksManager = new ItemManager(new RestService());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         public static AndroidTaskDatabase Database

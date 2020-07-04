@@ -13,3 +13,7 @@ C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\obj\Debug\net
 C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\obj\Debug\netstandard2.0\View\LogInPage.xaml.g.cs
 C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\obj\Debug\netstandard2.0\AndroidTask.csprojAssemblyReference.cache
 C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Franklin\source\repos\AndroidTask\AndroidTask\AndroidTask\obj\Debug\netstandard2.0\AndroidTask.csproj.CopyComplete
